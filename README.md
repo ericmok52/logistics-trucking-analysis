@@ -13,7 +13,7 @@ The goal is to simulate real-world business analysis by answering key questions 
 
 ---
 
-## 🗂️ Database Schema
+## Database Schema
 
 The dataset includes the following key tables:
 
@@ -30,7 +30,7 @@ The dataset includes the following key tables:
 
 ---
 
-## 📊 Key Business Questions
+## Key Business Questions
 
 ### Revenue Analysis
 
@@ -56,7 +56,7 @@ The dataset includes the following key tables:
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 * Add dashboards (Power BI / Tableau)
 * Perform profit analysis
