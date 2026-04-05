@@ -1,66 +1,55 @@
+# Key Findings – Logistics Analysis
 
-In this project, I explored a logistics dataset using SQL to better understand how the business performs across revenue, drivers, fleet usage, and operations.
+## Overview
 
-The aim was to answer simple business questions and see what insights could be drawn from the data.
-
----
-
-## 💰 Revenue
-
-* A small number of customers generate a large portion of the total revenue.
-* The top customer stands out significantly compared to others.
-* Some routes appear much more valuable than others in terms of revenue.
-
-**What this means:**
-The business relies quite heavily on a few key customers. While that’s good for revenue, it could also be risky if those customers leave. It might be worth looking into growing smaller accounts or finding new customers.
+This project explores a logistics dataset using SQL to understand performance across revenue, drivers, fleet usage, and operations. The focus was on answering basic business questions and identifying patterns in the data.
 
 ---
 
-## 🚛 Drivers
+## Revenue
 
-* Some drivers are completing a lot more trips than others.
-* A few drivers are linked to higher total revenue.
-* Trip durations vary between drivers.
+A small number of customers contribute a large share of total revenue. The top customer generates significantly more than the rest, and certain routes consistently bring in higher revenue.
 
-**What this means:**
-Workload doesn’t seem evenly distributed. Some drivers might be overworked while others are underutilised. There could also be differences in efficiency or route allocation.
+This suggests the business relies heavily on key customers. While this is positive for revenue, it also introduces risk if those customers are lost. Expanding the customer base or growing smaller accounts could help reduce this dependency.
 
 ---
 
-## ⛽ Fleet & Costs
+## Drivers
 
-* Fuel costs are not consistent across trucks.
-* Certain trucks have much higher maintenance costs.
-* The average truck age suggests some vehicles may be getting older.
+There is an uneven distribution of trips across drivers. Some drivers complete significantly more trips and are linked to higher total revenue. Trip duration also varies between drivers.
 
-**What this means:**
-Some trucks may be less efficient or more expensive to run. High maintenance costs could point to aging vehicles or reliability issues. This might be something to monitor over time.
+This may indicate differences in workload allocation or efficiency. Balancing workloads and understanding what high-performing drivers are doing differently could improve overall performance.
 
 ---
 
-## 📦 Operations
+## Fleet and Costs
 
-* On-time delivery is an important metric for performance.
-* Any delays could impact customer satisfaction.
+Fuel costs vary across trucks, and some vehicles have noticeably higher maintenance costs. The average truck age suggests parts of the fleet may be getting older.
 
-**What this means:**
-Even small delays can affect how customers view the service. Tracking this regularly would help identify where problems are happening.
+This could point to inefficiencies in certain vehicles or higher long-term costs due to aging equipment. Monitoring these trends can help with decisions around maintenance and fleet replacement.
 
 ---
 
-## 🔍 Final Thoughts
+## Operations
 
-From this analysis, a few things stand out:
+On-time delivery is a key performance metric. Delays, even if small, can impact customer satisfaction and overall service quality.
 
-* Revenue is strong but concentrated
-* Driver workload could be better balanced
-* Some trucks may be costing more than they should
-
-Overall, there are clear opportunities to improve efficiency and reduce costs.
+Tracking delivery performance over time would help identify consistent issues and improve operational planning.
 
 ---
 
-## 💡 Reflection
+## Conclusion
 
-This project helped me get more comfortable working with SQL and understanding how different tables connect in a real dataset. I also got better at thinking about what the data actually means, not just writing queries.
+The analysis highlights a few key areas:
 
+* Revenue is strong but concentrated among a small group of customers
+* Driver workload is uneven
+* Some trucks may be less cost-efficient than others
+
+These areas present opportunities to improve efficiency, reduce costs, and strengthen overall performance.
+
+---
+
+## Reflection
+
+This project helped build a better understanding of how data is structured in a logistics environment and how SQL can be used to analyse it. It also improved my ability to connect query results to real business insights.
