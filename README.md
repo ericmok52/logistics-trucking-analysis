@@ -35,23 +35,17 @@ The dataset includes the following key tables:
 ### Revenue Analysis
 
 * Which customer generates the most revenue?
-* Which routes are the most profitable?
 
 ### Driver Performance
 
-* How many trips does each driver complete?
 * Which drivers generate the most revenue?
+* How many trips does each driver complete?
 
-### Fleet & Cost Analysis
+### Cost & Operations Analysis
 
-* What is the average truck age?
-* Which trucks have the highest fuel consumption?
+* What is total fuel cost per truck?
 * What are the maintenance costs per truck?
-
-### Operational KPIs
-
-* What is the on-time delivery rate?
-* What is the average trip duration?
+* On time delivery rates
 
 ---
 
@@ -62,14 +56,7 @@ The dataset includes the following key tables:
 
 ---
 
-##  Key Insights
-
-(To be filled as analysis progresses)
-
----
-
 ## 🚀 Future Improvements
 
 * Add dashboards (Power BI / Tableau)
 * Perform profit analysis
-* Add predictive modeling
