@@ -1,1 +1,81 @@
 
+# 📦 Logistics Database Schema
+
+## Tables Overview
+
+### 1. DRIVERS
+
+* **Primary Key:** driver_id
+* Driver demographics, employment history, license info
+
+### 2. TRUCKS
+
+* **Primary Key:** truck_id
+* Fleet equipment details, acquisition info, status
+
+### 3. TRAILERS
+
+* **Primary Key:** trailer_id
+* Trailer inventory, types, status
+
+### 4. CUSTOMERS
+
+* **Primary Key:** customer_id
+* Customer accounts, contract types, revenue potential
+
+### 5. FACILITIES
+
+* **Primary Key:** facility_id
+* Terminal and warehouse locations, capacity
+
+### 6. ROUTES
+
+* **Primary Key:** route_id
+* Origin-destination pairs, distances, rate structures
+
+### 7. LOADS
+
+* **Primary Key:** load_id
+* **Foreign Keys:** customer_id, route_id
+* Shipment details, revenue, booking type
+
+### 8. TRIPS
+
+* **Primary Key:** trip_id
+* **Foreign Keys:** load_id, driver_id, truck_id, trailer_id
+* Trip performance, fuel consumption, duration
+
+### 9. FUEL_PURCHASES
+
+* **Primary Key:** fuel_purchase_id
+* **Foreign Keys:** trip_id, truck_id, driver_id
+* Fuel transactions, prices, locations
+
+### 10. MAINTENANCE_RECORDS
+
+* **Primary Key:** maintenance_id
+* **Foreign Key:** truck_id
+* Service history, costs, downtime
+
+### 11. DELIVERY_EVENTS
+
+* **Primary Key:** event_id
+* **Foreign Keys:** load_id, trip_id, facility_id
+* Delivery timestamps, on-time status
+
+### 12. SAFETY_INCIDENTS
+
+* **Primary Key:** incident_id
+* **Foreign Keys:** trip_id, truck_id, driver_id
+* Accidents, violations, damage costs
+
+---
+
+## 🔗 Key Relationships
+
+* Loads → Customers (many-to-one)
+* Loads → Routes (many-to-one)
+* Trips → Loads (one-to-one)
+* Trips → Drivers (many-to-one)
+* Trips → Trucks (many-to-one)
+* Trips → Trailers (many-to-one)
